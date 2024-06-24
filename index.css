@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(88, 0, 0);
+}
+
+.main-div {
+    color: red;
+    border: 2px solid;
+    border-radius: 25px;
+    width: fit-content;
+    padding-inline: 100px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+
+}
+
+#custom-number-input {
+    color: red;
+    border: 2px solid;
+    border-radius: 25px;
+
+}
+
+.crement-btn {
+    background-color: transparent;
+    color: red;
+    border-radius: 25px;
+    border: 2px solid;
+    margin: 10px;
+    font-size: large;
+}
+
+.crement-btn:active {
+    color: rgb(62, 0, 0);
+}
+
+.input {
+    color: red;
+    text-align: center;
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#dropdown {
+    color: red;
+    width: 100;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 25px;
+    margin-top: 10px;
+    height: fit-content
+}
+
+#spy-count-div {
+    display: flex;
+    align-items: center;
+}
+
+#start-button {
+    text-align: center;
+    margin: 0 auto;
+    background-color: transparent;
+    color: red;
+    border: 2px solid;
+    font-size: large;
+    border-radius: 25px;
+    display: flex;
+}
+
+#start-button:active {
+    color: rgb(62, 0, 0);
+
+}

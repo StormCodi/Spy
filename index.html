@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spy Main</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js" defer></script>
+
+
+</head>
+
+<body>
+    <div class="main-div">
+        <h1 style="text-align: center;">Spy</h1>
+        <div id="custom-number-input">
+            <button onclick="decrement()" class="crement-btn" id="decrement">-</button>
+            <input id="number-player-input" type="number" class="input" placeholder="# of players" readonly>
+            <button onclick="increment()" class="crement-btn" id="increment">+</button>
+        </div>
+        <div id="spy-count-div">
+            <h3>Spies:</h3>
+            <select class="input" id="dropdown" placeholder="50">
+            </select>
+        </div>
+        <button id="start-button">Start Game</button>
+
+    </div>
+    <div class="main-div" style="margin-top: 10;">
+        <h1>Word List:</h1>
+        <!-- <input autocomplete=false  list> -->
+        <textarea id="words-textarea"
+            style="resize: none; background-color: transparent; width: 100%; color:red; border: none; outline: none; text-align: center;" rows="15"></textarea>
+    </div>
+</body>
+
+
+</html>

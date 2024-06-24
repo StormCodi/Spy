@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spy Pass</title>
+
+    <style>
+        body {
+            background-color: rgb(92, 91, 91);
+            text-align: center;
+        }
+
+        button {
+            background-color: transparent;
+            font-size: 75;
+            color: red;
+            border: 10px solid red;
+            border-radius: 10% / 50%;
+        }
+
+        #word-div {
+            height: 40%;
+            background-color: rgb(57, 57, 57);
+            color: white;
+            width: 80%;
+            border-radius: 25px;
+            text-align: center;
+            margin: 0 auto;
+            opacity: 0;
+
+        }
+    </style>
+    <script src="game.js" defer></script>
+
+
+</head>
+
+<body>
+    <h1>Click or Pass the phone</h1>
+    <h2 id="player-count">You are player 0 out of 0 players</h2>
+    <h2 id="spy-count">There is 1 spy</h2>
+
+    <button id="reveal-btn" onclick="swipe()">REVEAL</button>
+    <div id="word-div">
+        <h1 id="word-is">Your word is </h1>
+        <h1 id="word" style="font-size:80px;"> WORD </h1>
+    </div>
+    <br>
+    <br>
+    <button style="font-size:small; border: 2px solid; color:black;"
+        onclick="window.location.href='index.html'">Reset</button>
+</body>
+
+</html>
